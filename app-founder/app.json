@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "Nevora Founder",
+    "slug": "nevora-founder",
+    "version": "1.0.0",
+    "platforms": ["ios", "android", "web"],
+    "sdkVersion": "51.0.0"
+  }
+}

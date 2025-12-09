@@ -1,0 +1,65 @@
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: #0a0a0a;
+  background: #f6f8fb;
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem 3rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin-right: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  color: inherit;
+}
+
+textarea {
+  width: 100%;
+  min-height: 120px;
+}
+
+button {
+  margin-top: 0.5rem;
+  padding: 0.7rem 1rem;
+  background: #0f766e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.panel {
+  background: #0a192f;
+  color: #e2e8f0;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+}
